@@ -24,9 +24,14 @@ inquirer
             message:"What is your project's name?",
         },
         {
-            type: 'editor' ,
+            type: 'input' ,
             name:'projectDescription',
-            message:'Please write a short description of your project',
+            message:'Please write a short description of your project: ',
+        },
+        {
+            type: 'input' ,
+            name:'projectLink',
+            message:'URL link of your project: ',
         },
         {
             type: 'list' ,
@@ -48,11 +53,17 @@ inquirer
         },
         {
             type: 'input' ,
+            name:'projectUsage',
+            message:'Please write the project usage: ',
+        },
+        {
+            type: 'input' ,
             name:'contributing',
             message:'What does the user need to know about contributing to the repo?',
         },
     ]).then((data) =>{
         console.log(data);
+        console.log("Generating README.md")
         const makeReadMe = generateMarkdown(data);
         fs.writeFileSync("README.md",makeReadMe)
     })
