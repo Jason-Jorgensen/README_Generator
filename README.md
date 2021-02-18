@@ -1,11 +1,11 @@
 
-  #  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+  # README Generator [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
   
   ## Description
-   
+  Will generate a README by taking in the user's input in the terminal 
 
-  [Project Link]()
+  [Project Link](Link.com)
 
   ## Table of Contents
 
@@ -18,11 +18,11 @@
 
   ## Installation
 
-  npm i
+  Run npm i for the package.json
 
   ## Usage
 
-  
+  Run node index.js in the terminal
 
   ## License
 
@@ -35,9 +35,9 @@
 
   To run tests, run the following command: 
 
-  npm test
+  Run node test.js in the terminal
 
   ## Questions
-  If you have any questions please email me at jasoncjorgensen@gmail.com.
+  If you have any questions please email me at Email@email.com.
 
-  Also, please see my [GitHub](https://github.com/Jason-Jorgensen)
+  Also, please see my [GitHub](https://github.com/User Name)
