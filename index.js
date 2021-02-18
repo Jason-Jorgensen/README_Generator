@@ -63,7 +63,7 @@ inquirer
         },
     ]).then((data) =>{
         console.log(data);
-        console.log("Generating README.md")
+        console.log("......Generating README.md")
         const makeReadMe = generateMarkdown(data);
         fs.writeFileSync("README.md",makeReadMe)
     })
